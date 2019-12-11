@@ -14,7 +14,7 @@ import java.util.Set;
  * 解释: 因为无重复字符的最长子串是 "abc"，所以其长度为 3。
  *
 */
-//快慢指针
+// 快慢指针
 public class Leet_3_lengthOfLongestSubstring {
     public int lengthOfLongestSubstring(String s) {
         int begin = 0, end = 0, result = 0;
