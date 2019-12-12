@@ -7,6 +7,7 @@
  * 输入: 123
  * 输出: 321
 */
+
 public class Leet_6_reverse {
     public int reverse(int x) {
         int res = 0;
