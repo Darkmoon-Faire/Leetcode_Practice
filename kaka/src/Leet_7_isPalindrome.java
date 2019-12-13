@@ -7,9 +7,25 @@
  * 输入: 121
  * 输出: true
 */
-public class Leet_7_myAtoi {
+public class Leet_7_isPalindrome {
     public boolean isPalindrome(int x) {
         String re = new StringBuilder(String.valueOf(x)).reverse().toString();
         return  re.equals(String.valueOf(x));
     }
+
+    public static void main(String[] args) {
+        Leet_7_isPalindrome leet = new Leet_7_isPalindrome();
+        leet.isPalindrome(131);
+    }
 }
+/*
+    public boolean isPalindrome(int x) {
+            int res = 0;
+            while (x != 0){
+                res = res * 10 + x % 10;
+                x /= 10;
+            }
+            return res == x;
+    }
+
+*/
