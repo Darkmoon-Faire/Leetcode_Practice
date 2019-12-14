@@ -51,7 +51,7 @@ class Solution(object):
 
 
 if __name__ == '__main__':
-    words = ["Hello", "Alaska", "Dad", "Peace"]
-    solve = Solution().findWords(words)
-    print(solve)
-
+    # words = ["Hello", "Alaska", "Dad", "Peace"]
+    # solve = Solution().findWords(words)
+    # print(solve)
+    s = 'abcde'
